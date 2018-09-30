@@ -41,5 +41,5 @@ $ npmg install <package>
 ### uninstall
 Uninstall a package and remove it from npmg's reference:
 ```zsh
-$ npmg uninstall <package>:
+$ npmg uninstall <package>
 ```
