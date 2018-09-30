@@ -1,3 +1,11 @@
 root=${PWD%bin}
-cp -r $root ~/.npmg
+
+mkdir -p ~/.npmg
+
+rm -rf ~/.npmg/bin
+rm -rf ~/.npmg/lib
+
+cp -r $root/bin ~/.npmg/bin
+cp -r $root/lib ~/.npmg/lib
+
 ln -sf ~/.npmg/bin/npmg /usr/local/bin/npmg
