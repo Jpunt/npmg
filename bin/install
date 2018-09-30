@@ -1,0 +1,3 @@
+root=${PWD%bin}
+cp -r $root ~/.npmg
+ln -sf ~/.npmg/bin/npmg /usr/local/bin/npmg
