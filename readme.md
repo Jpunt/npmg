@@ -14,7 +14,7 @@ There're also things like [`nvm`](http://nvm.sh), which allows you to install mu
 
 ## Installation
 
-The easiest way to install `npmg` is to [download it](https://github.com/Jpunt/npmg/archive/0.0.1.zip) and run `./bin/install`. This will copy some files to `~/.npmg` and make a symlink to `/usr/local/bin`. You could also clone this repo and do those steps manually. You'll need [node](https://nodejs.org/en/) (6.4 or heigher) and macOS to use it. I would also advise you to remove already installed packages, or at least re-install them with `npmg`. And don't forget about those global packages that you've installed with `yarn` either! This way you'll have a nice clean start.
+The easiest way to install `npmg` is to [download it](https://github.com/Jpunt/npmg/archive/0.0.2.zip) and run `./bin/install`. This will copy some files to `~/.npmg` and make a symlink to `/usr/local/bin`. You could also clone this repo and do those steps manually. You'll need [node](https://nodejs.org/en/) (6.4 or heigher) and macOS to use it. I would also advise you to remove already installed packages, or at least re-install them with `npmg`. And don't forget about those global packages that you've installed with `yarn` either! This way you'll have a nice clean start.
 
 ## Usage
 
